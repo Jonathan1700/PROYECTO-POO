@@ -35,7 +35,7 @@ ofertas_iphone = ("iPhone 11", "iPhone 13 Mini", "iPhone 14")
 ofertas_samsung = ("Galaxy A54", "Galaxy S21 FE", "Galaxy Z Flip 3")   
 
 print("\n" + "*"*40)
-print("🔥 OFERTAS ESPECIALES DE LA SEMANA 🔥")
+print(" OFERTAS ESPECIALES DE LA SEMANA ")
 print("*"*40)
 
 print("\n📱 Ofertas Xiaomi:")
@@ -82,7 +82,7 @@ if ver_menu == 's':
             print("Saliendo del sistema. ¡Hasta luego!")
             break 
         else:
-            print("⚠️ Opción no válida. Por favor, ingresa un número del 1 al 5.")
+            print(" Opción no válida. Por favor, ingresa un número del 1 al 5.")
             continue 
             
         print("\n" + "-"*30)
