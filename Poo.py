@@ -42,11 +42,11 @@ print("\n Ofertas Xiaomi:")
 for modelo in ofertas_xiaomi:
     print(f" - {modelo}")
 
-print("\n📱 Ofertas iPhone:")
+print("\n Ofertas iPhone:")
 for modelo in ofertas_iphone:
     print(f" - {modelo}")
 
-print("\n📱 Ofertas Samsung:")
+print("\n Ofertas Samsung:")
 for modelo in ofertas_samsung:
     print(f" - {modelo}")
 
@@ -58,7 +58,7 @@ ver_menu = input("\n¿Deseas ver las especificaciones detalladas de nuestros mod
 if ver_menu == 's':
     while True:
         print("\n" + "="*30)
-        print("📱 MENÚ DE CELULARES 📱")
+        print(" MENÚ DE CELULARES ")
         print("="*30)
         print("1. Ver especificaciones de Xiaomi")
         print("2. Ver especificaciones de iPhone")
