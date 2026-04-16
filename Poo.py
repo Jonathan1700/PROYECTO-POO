@@ -42,11 +42,11 @@ print("\n Ofertas Xiaomi:")
 for modelo in ofertas_xiaomi:
     print(f" - {modelo}")
 
-print("\n Ofertas iPhone:")
+print("\n📱 Ofertas iPhone:")
 for modelo in ofertas_iphone:
     print(f" - {modelo}")
 
-print("\n Ofertas Samsung:")
+print("\n📱 Ofertas Samsung:")
 for modelo in ofertas_samsung:
     print(f" - {modelo}")
 
@@ -60,9 +60,9 @@ if ver_menu == 's':
         print("\n" + "="*30)
         print(" MENÚ DE CELULARES ")
         print("="*30)
-        print("1. Ver especificaciones de Xiaomi")
-        print("2. Ver especificaciones de iPhone")
-        print("3. Ver especificaciones de Samsung")
+        print("1. Ver especificaciones de Xiaomi 10")
+        print("2. Ver especificaciones de iPhone 13 ")
+        print("3. Ver especificaciones de Samsung s21 ")
         print("4. Ver característica especial de Samsung")
         print("5. Salir del programa")
         print("="*30)
@@ -82,7 +82,7 @@ if ver_menu == 's':
             print("Saliendo del sistema. ¡Hasta luego!")
             break 
         else:
-            print(" Opción no válida. Por favor, ingresa un número del 1 al 5.")
+            print("Opción no válida. Por favor, ingresa un número del 1 al 5.")
             continue 
             
         print("\n" + "-"*30)
@@ -92,4 +92,4 @@ if ver_menu == 's':
             print("Saliendo del sistema. ¡Hasta luego!")
             break
 else:
-    print("\n¡Gracias por ver nuestras ofertas! Vuelve pronto.")
+    print("\n¡Gracias por ver nuestras ofertas! Vuelve pronto."
