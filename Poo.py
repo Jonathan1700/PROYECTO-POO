@@ -38,7 +38,7 @@ print("\n" + "*"*40)
 print(" OFERTAS ESPECIALES DE LA SEMANA ")
 print("*"*40)
 
-print("\n📱 Ofertas Xiaomi:")
+print("\n Ofertas Xiaomi:")
 for modelo in ofertas_xiaomi:
     print(f" - {modelo}")
 
@@ -71,11 +71,11 @@ if ver_menu == 's':
         print() 
 
         if opcion == "1":
-            print("🔹", xiaomi1.especificaciones())
+            print(xiaomi1.especificaciones())
         elif opcion == "2":
-            print("🔹", iphone1.especificaciones())
+            print(iphone1.especificaciones())
         elif opcion == "3":
-            print("🔹", samsung1.especificaciones())
+            print(samsung1.especificaciones())
         elif opcion == "4":
             print( samsung1.nsamsung())
         elif opcion == "5":
